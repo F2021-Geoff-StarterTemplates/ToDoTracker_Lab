@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using ToDoTracker_Lab.Models;
 
 namespace ToDoTracker_Lab.ViewModels
-{
+{ 
     public class ToDoViewModel : INotifyPropertyChanged
     {
         private ObservableCollection<ToDoItem> _items;
